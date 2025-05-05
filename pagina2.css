@@ -137,3 +137,11 @@ footer a{
     color: #120c2e;
     transform: scale(1.05);
 }
+
+footer{
+    background-color: #000000;
+}
+
+.textofooter{
+    color: antiquewhite;
+}
