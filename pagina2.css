@@ -144,4 +144,7 @@ footer{
 
 .textofooter{
     color: antiquewhite;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
 }
