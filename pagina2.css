@@ -74,11 +74,18 @@ select, input[type="email"], input[type="text"], textarea {
 .page5{
     background-color: #28286E;
     color: antiquewhite;
+    display: flex;
 }
 .page6{
     background-color: 	#32328C;
     color: antiquewhite;
 }
+
+.page7{
+    background-color: 	black;
+    color: antiquewhite;
+}
+
 .interface{
     height: 100vh;
     scroll-snap-type: y mandatory;
@@ -97,4 +104,36 @@ section{
     color: #fff;
     font-family: "Quicksand", sans-serif;
     
+}
+
+footer{
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a{
+    color: #b2daed;
+    text-decoration: none;
+}
+
+/*Botao menina*/
+.botaozao{
+    background-color: #120c2e;
+    color: #97ce4c;
+    border: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    padding: 12px 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.botaozao:hover{
+    background-color: #97ce4c;
+    color: #120c2e;
+    transform: scale(1.05);
 }
